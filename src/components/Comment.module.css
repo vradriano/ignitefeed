@@ -21,7 +21,7 @@
 }
 
 .commentContent header {
-  display: lex;
+  display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -39,6 +39,11 @@
   color: var(--red-500);
 } 
 
+.authorAndTime {
+  display: flex;
+  flex-direction: column;
+}
+
 .authorAndTime strong {
   display: block;
   font-size: 0.875rem;
@@ -52,7 +57,7 @@
   color: var(--gray-400)
 }
 
-.commentContnet p {
+.commentContent p {
   margin-top: 1rem;
   color: var(--gray-300);
 }
